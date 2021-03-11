@@ -1,0 +1,137 @@
+19:48:08 **** Incremental Build of configuration Debug for project Test_1 ****
+make -j8 all 
+arm-none-eabi-size   Test_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4532	     20	   1572	   6124	   17ec	Test_1.elf
+Finished building: default.size.stdout
+ 
+19:48:49 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4456	     20	   1572	   6048	   17a0	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+19:49:27 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Test_103c8.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/ark/st/HAL_F1/Test_103c8/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test_103c8.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Test_103c8.elf
+ 
+arm-none-eabi-objdump -h -S  Test_103c8.elf  > "Test_103c8.list"
+arm-none-eabi-objcopy  -O binary  Test_103c8.elf  "Test_103c8.bin"
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4456	     20	   1572	   6048	   17a0	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+Finished building: Test_103c8.bin
+ 
+Finished building: Test_103c8.list
+ 
+19:49:45 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4456	     20	   1572	   6048	   17a0	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+19:50:21 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4456	     20	   1572	   6048	   17a0	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+19:50:49 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Test_103c8.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/ark/st/HAL_F1/Test_103c8/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test_103c8.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Test_103c8.elf
+ 
+arm-none-eabi-objdump -h -S  Test_103c8.elf  > "Test_103c8.list"
+arm-none-eabi-objcopy  -O binary  Test_103c8.elf  "Test_103c8.bin"
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4444	     20	   1572	   6036	   1794	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+Finished building: Test_103c8.bin
+ 
+Finished building: Test_103c8.list
+ 
+19:50:58 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4444	     20	   1572	   6036	   1794	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+19:51:43 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Test_103c8.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/ark/st/HAL_F1/Test_103c8/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test_103c8.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Test_103c8.elf
+ 
+arm-none-eabi-objdump -h -S  Test_103c8.elf  > "Test_103c8.list"
+arm-none-eabi-objcopy  -O binary  Test_103c8.elf  "Test_103c8.bin"
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4588	     20	   1572	   6180	   1824	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+Finished building: Test_103c8.bin
+ 
+Finished building: Test_103c8.list
+ 
+19:57:33 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Test_103c8.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/ark/st/HAL_F1/Test_103c8/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test_103c8.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Test_103c8.elf
+ 
+arm-none-eabi-objdump -h -S  Test_103c8.elf  > "Test_103c8.list"
+arm-none-eabi-objcopy  -O binary  Test_103c8.elf  "Test_103c8.bin"
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4460	     20	   1572	   6052	   17a4	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+Finished building: Test_103c8.bin
+ 
+Finished building: Test_103c8.list
+ 
+19:58:06 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Test_103c8.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/ark/st/HAL_F1/Test_103c8/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test_103c8.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Test_103c8.elf
+ 
+arm-none-eabi-objdump -h -S  Test_103c8.elf  > "Test_103c8.list"
+arm-none-eabi-objcopy  -O binary  Test_103c8.elf  "Test_103c8.bin"
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4536	     20	   1572	   6128	   17f0	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+Finished building: Test_103c8.bin
+ 
+Finished building: Test_103c8.list
+ 
+19:58:46 **** Incremental Build of configuration Debug for project Test_103c8 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Test_103c8.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/ark/st/HAL_F1/Test_103c8/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test_103c8.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Test_103c8.elf
+ 
+arm-none-eabi-objdump -h -S  Test_103c8.elf  > "Test_103c8.list"
+arm-none-eabi-objcopy  -O binary  Test_103c8.elf  "Test_103c8.bin"
+arm-none-eabi-size   Test_103c8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4552	     20	   1572	   6144	   1800	Test_103c8.elf
+Finished building: default.size.stdout
+ 
+Finished building: Test_103c8.bin
+ 
+Finished building: Test_103c8.list
+ 
